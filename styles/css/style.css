@@ -2619,7 +2619,7 @@ img.aligncenter {
  * Avatars
  */
  .avatar {
-    
+    border-radius: 50%;
 }
 
 .avatar-42 {
