@@ -70,7 +70,7 @@ template {
 a {
     color: inherit;
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration: none;
     background-color: transparent;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -83,7 +83,7 @@ a {
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 /*  Typography */
