@@ -4,10 +4,17 @@
     <h1>{{ site.name }}</h1>
     <p class="text-muted"> {{ site.school }} | {{ site.education }} | {{ site.location }} </p>
     <ul class="ace-social clear-list">
+
+<!--
       <li><a href="{{ site.github }}" title="{{ site.github }}" target="_blank"><span class="ace-icon ace-icon-github"></span></a></li>
+-->
+      <li><a href="{{ site.github }}" title="{{ site.github }}" target="_blank"><i class="fas fa-kiss"></i></a></li>
+
       <li><a href="mailto: {{ site.email }}" title="{{ site.email }}"><span class="ace-icon ace-icon-contact"></span></a></li>
+
       <li><a href="{{ site.qq }}" title="{{ site.qq }}" target="_blank"><span class="ace-icon ace-icon-qq"></span></a></li>
     </ul>
+
   </div>
   <footer class="ace-card-footer">
     <a class="btn btn-lg btn-block btn-thin btn-upper" href="javascript:void(0)" onclick="window.print()">Download Resume</a>
