@@ -11,7 +11,7 @@ qq_address: http://wpa.qq.com/msgrd?v=3&uin=1026141807&site=qq&menu=yes
 phone: XXXXXXXXXXX
 email: szzsf1999@163.com
 
-baseurl: "/resume.io"
+
 
 permalink: /:year/:month/:day/:title/
 
@@ -19,4 +19,3 @@ exclude: ['README.md']
 
 # Build settings
 markdown: kramdown
-
